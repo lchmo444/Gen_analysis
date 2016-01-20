@@ -1,0 +1,37 @@
+﻿빌드 시작: 2016-01-08 오후 12:12:46
+     1>2 노드의 "C:\Users\lee\Desktop\lee_chung_keun\CHIP_자료\sequence_extraction_tool\Project1\Project1.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp tinyxml2.cpp
+         MyForm.cpp
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\MyForm.h(245): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+         tinyxml2.cpp
+         코드를 생성하고 있습니다...
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(2129): warning C4793: 'tinyxml2::XMLPrinter::Print' : 함수가 네이티브로 컴파일되었습니다.
+         	/clr에서는 vararg가 지원되지 않습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(2131): warning C4793: 'tinyxml2::XMLPrinter::Print' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(2139): warning C4793: 'tinyxml2::XMLPrinter::Print' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(2141): warning C4793: 'tinyxml2::XMLPrinter::Print' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(2146): warning C4793: 'tinyxml2::XMLPrinter::Print' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(45): warning C4793: '`anonymous namespace'::TIXML_SNPRINTF' : 함수가 네이티브로 컴파일되었습니다.
+         	/clr에서는 vararg가 지원되지 않습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(47): warning C4793: '`anonymous namespace'::TIXML_SNPRINTF' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+     1>c:\users\lee\desktop\lee_chung_keun\chip_자료\sequence_extraction_tool\project1\tinyxml2.cpp(49): warning C4793: '`anonymous namespace'::TIXML_SNPRINTF' : 함수가 네이티브로 컴파일되었습니다.
+         	관리 코드에서 지원되지 않는 내장 함수가 있습니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\lee\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lee\Desktop\lee_chung_keun\CHIP_자료\sequence_extraction_tool\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project1.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lee\Desktop\lee_chung_keun\CHIP_자료\sequence_extraction_tool\Project1\Debug\Project1.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         Debug\tinyxml2.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Project1.vcxproj -> C:\Users\lee\Desktop\lee_chung_keun\CHIP_자료\sequence_extraction_tool\Project1\Debug\Project1.exe
+     1>"C:\Users\lee\Desktop\lee_chung_keun\CHIP_자료\sequence_extraction_tool\Project1\Project1.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.96
